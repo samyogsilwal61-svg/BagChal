@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BoardUtils
+public static class BoardUtils
 {
     
 }
