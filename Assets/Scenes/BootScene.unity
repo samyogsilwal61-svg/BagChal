@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7e1fec249bcac4f9c1e37b4127c1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadingScreen
-  nextSceneName: GameScene
+  nextSceneName: MainMenu
   minimumShowTime: 2.5
   fadeInTime: 0.5
   fadeOutTime: 0.4
