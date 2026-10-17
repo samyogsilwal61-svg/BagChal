@@ -679,6 +679,7 @@ GameObject:
   - component: {fileID: 291071903}
   - component: {fileID: 291071902}
   - component: {fileID: 291071909}
+  - component: {fileID: 291071910}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -946,6 +947,23 @@ MonoBehaviour:
   messageText: {fileID: 342648046}
   gameOverPanel: {fileID: 1387094019}
   gameOverText: {fileID: 315267507}
+--- !u!114 &291071910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291071901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdbedd65985be84b9ac9b0ef295cd51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResponsiveCanvas
+  portraitOnly: []
+  landscapeOnly: []
+  OnLayoutChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &315267506
 GameObject:
   m_ObjectHideFlags: 0
